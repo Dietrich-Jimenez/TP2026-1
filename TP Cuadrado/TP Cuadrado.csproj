@@ -9,10 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ClaseFactorial.cs" />
+    <Compile Remove="Classe.cs" />
+    <Compile Remove="ClasseCuad.cs" />
+    <Compile Remove="Factorial.cs" />
     <Compile Remove="OyH.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="ClaseFactorial.cs" />
+    <None Include="Classe.cs" />
+    <None Include="ClasseCuad.cs" />
+    <None Include="Factorial.cs" />
     <None Include="OyH.cs" />
   </ItemGroup>
 
