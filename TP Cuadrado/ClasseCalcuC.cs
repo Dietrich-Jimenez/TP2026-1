@@ -1,12 +1,18 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-public class CalculadoraCientifica : Calculadora
+﻿public class CalculadoraCientifica : Calculadora
 {
     //Atributos
     public CalculadoraCientifica (double num1, double num2) : base(num1, num2)
     {
     }
     //Metodos
+    public override double Sumar()
+    {
+        double suma = base.Sumar();
+        Console.WriteLine($"El resultado de la suma es: {suma*2}");
+        return suma;
+
+    }
+
     public int Factorial()
     {
         if (numero1 < 0)
@@ -21,7 +27,18 @@ public class CalculadoraCientifica : Calculadora
         }
         Console.WriteLine($"El factorial de {numero1} es: {resultado}");
         return resultado;
+    }
+    public double RaizCuadrada()
+    {
+        return Math.Sqrt(numero1);
 
-
+    }
+    public double Logaritmo()
+    {
+        return Math.Log(numero1);
+    }
+    public void MensajeCalculadora()
+    {
+        Console.WriteLine(MostrarMensaje());
     }
 }

@@ -9,10 +9,29 @@
         numero1 = num1;
         numero2 = num2;
     }
+    //Atributo privado
+    private double Resultado;
+    private string Mensaje = "Mensaje privado";
     // Métodos
-    public double Sumar()
+    public virtual double Sumar()
     {
-        return numero1 + numero2;
+        Resultado = numero1 + numero2;
+        Console.WriteLine($"El resultado de la suma es: {Resultado}");
+
+        return Resultado;
+    }
+    public double Sumar(double num3)
+    {
+        
+        Console.Write($"El resultado de la suma con el número adicional es: {Resultado}");
+        return Resultado = numero1 + numero2 + num3;
+
+    }
+
+    public static Calculadora operator + (Calculadora c1, Calculadora c2)
+    {
+        return new Calculadora(c1.numero1+c2.numero2,c1.numero2+c2.numero1);
+
     }
     public double Restar()
     {
@@ -30,8 +49,14 @@
         }
         else
         {
-            Console.WriteLine("Error: División por cero no permitida.");
+            Console.WriteLine("No hay división entre 0.");
         }
     }
-
+    //Metodo privado
+    protected string MostrarMensaje()
+    {
+        Console.WriteLine(Mensaje);
+        return Mensaje;
+    }
+    //Metodo para acceder al metodo protegido de la clase base   
 }

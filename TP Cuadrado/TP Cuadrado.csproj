@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="ClaseFactorial.cs" />
     <None Include="Classe.cs" />
     <None Include="ClasseCuad.cs" />
     <None Include="Factorial.cs" />
