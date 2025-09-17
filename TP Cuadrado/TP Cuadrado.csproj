@@ -1,0 +1,94 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>TP_Cuadrado</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NewFolder\NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder\NewFolder\**" />
+    <None Remove="NewFolder\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Arreglos\arreglosclase.cs" />
+    <Compile Remove="Calculadora.cs" />
+    <Compile Remove="CalculadoraPrinces.cs" />
+    <Compile Remove="CasteoIng\Anial.cs" />
+    <Compile Remove="CasteoIng\InterfazAnimal.cs" />
+    <Compile Remove="CasteoIng\PagoTArjetaYE\InerfazPago.cs" />
+    <Compile Remove="ClaseFactorial.cs" />
+    <Compile Remove="Classe.cs" />
+    <Compile Remove="ClasseCalcuC.cs" />
+    <Compile Remove="ClasseCuad.cs" />
+    <Compile Remove="CuentaBancaria\Banco.cs" />
+    <Compile Remove="CuentaBancaria\BancoExepciones.cs" />
+    <Compile Remove="CuentaBancaria\ClaseCB.cs" />
+    <Compile Remove="CuentaBancaria\Listas\Listas.cs" />
+    <Compile Remove="CuentaBancaria\PrincipalBanco.cs" />
+    <Compile Remove="Ejercicio Sumnistros\inventario.cs" />
+    <Compile Remove="Ejercicio Sumnistros\mainsum.cs" />
+    <Compile Remove="Ejercicio Sumnistros\suministro.cs" />
+    <Compile Remove="Errores\ErroresClas.cs" />
+    <Compile Remove="Factorial.cs" />
+    <Compile Remove="IOT\IOT.cs" />
+    <Compile Remove="JuegoGame\Arquero.cs" />
+    <Compile Remove="JuegoGame\CabelleroClase.cs" />
+    <Compile Remove="JuegoGame\GuerreroClase.cs" />
+    <Compile Remove="JuegoGame\GuerreroShadow.cs" />
+    <Compile Remove="JuegoGame\MagoClase.cs" />
+    <Compile Remove="JuegoGame\MainJuego.cs" />
+    <Compile Remove="NewFolder\Casteos\Casteos.cs" />
+    <Compile Remove="NewFolder\Interfaz.cs" />
+    <Compile Remove="Otra\EjercicioComp.cs" />
+    <Compile Remove="Otra\MotoClass.cs" />
+    <Compile Remove="Otra\PrincipalAuto.cs" />
+    <Compile Remove="Otra\Vehiculo.cs" />
+    <Compile Remove="OyH.cs" />
+    <Compile Remove="Persona\Persona.cs" />
+    <Compile Remove="Tarea Dispositivos\Dispositivos.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Arreglos\arreglosclase.cs" />
+    <None Include="Calculadora.cs" />
+    <None Include="CalculadoraPrinces.cs" />
+    <None Include="CasteoIng\Anial.cs" />
+    <None Include="CasteoIng\InterfazAnimal.cs" />
+    <None Include="CasteoIng\PagoTArjetaYE\InerfazPago.cs" />
+    <None Include="Classe.cs" />
+    <None Include="ClasseCalcuC.cs" />
+    <None Include="ClasseCuad.cs" />
+    <None Include="CuentaBancaria\Banco.cs" />
+    <None Include="CuentaBancaria\BancoExepciones.cs" />
+    <None Include="CuentaBancaria\ClaseCB.cs" />
+    <None Include="CuentaBancaria\Listas\Listas.cs" />
+    <None Include="CuentaBancaria\PrincipalBanco.cs" />
+    <None Include="Ejercicio Sumnistros\inventario.cs" />
+    <None Include="Ejercicio Sumnistros\mainsum.cs" />
+    <None Include="Ejercicio Sumnistros\suministro.cs" />
+    <None Include="Errores\ErroresClas.cs" />
+    <None Include="Factorial.cs" />
+    <None Include="IOT\IOT.cs" />
+    <None Include="JuegoGame\Arquero.cs" />
+    <None Include="JuegoGame\CabelleroClase.cs" />
+    <None Include="JuegoGame\GuerreroClase.cs" />
+    <None Include="JuegoGame\GuerreroShadow.cs" />
+    <None Include="JuegoGame\MagoClase.cs" />
+    <None Include="JuegoGame\MainJuego.cs" />
+    <None Include="NewFolder\Casteos\Casteos.cs" />
+    <None Include="NewFolder\Interfaz.cs" />
+    <None Include="Otra\EjercicioComp.cs" />
+    <None Include="Otra\MotoClass.cs" />
+    <None Include="Otra\PrincipalAuto.cs" />
+    <None Include="Otra\Vehiculo.cs" />
+    <None Include="OyH.cs" />
+    <None Include="Persona\Persona.cs" />
+    <None Include="Tarea Dispositivos\Dispositivos.cs" />
+  </ItemGroup>
+
+</Project>
